@@ -7,8 +7,6 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
-
-  /* Use HEIGHT property to later stick the HEADER */
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -230,7 +228,6 @@
 .step-img-box::before {
   background-color: #fdf2e9;
   width: 60%;
-  /* 60% of the parent's width */
   padding-bottom: 60%;
   z-index: -2;
 }
@@ -238,14 +235,12 @@
 .step-img-box::after {
   background-color: #fae5d3;
   width: 45%;
-  /* 60% of the parent's width */
   padding-bottom: 45%;
   z-index: -1;
 }
 
 .step-img {
   width: 35%;
-  /* z-index: 1; */
 }
 
 /*****************************/
